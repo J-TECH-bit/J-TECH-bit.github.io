@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b2d">
+  <meta name="description" content="Joseph Joel Guda — researcher, data analyst, missionary and humanitarian. Research, data analytics, community impact and Forge Pivot Analytics Co.">
+  <title>Joseph Joel Guda | Research, Data & Missions</title>
+  <style>
+    :root {
+      --green: #123b2d;
+      --green-light: #dce9df;
+      --charcoal: #242b28;
+      --cream: #f8f7f1;
+      --white: #fff;
+      --muted: #65716a;
+      --line: #dce1da;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    .container { width: min(1080px, 90%); margin: auto; }
+    header {
+      background: var(--cream);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+    nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      color: var(--green);
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: -.5px;
+    }
+    .nav-links { display: flex; gap: 18px; flex-wrap: wrap; }
+    .nav-links a {
+      text-decoration: none;
+      font-size: .88rem;
+      font-weight: 600;
+    }
+    .hero { background: var(--green); color: var(--white); padding: 100px 0 90px; }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: .78rem;
+      font-weight: 700;
+      color: #b9d6c2;
+    }
+    h1 { font-size: clamp(2.5rem, 6vw, 4.7rem); line-height: 1.08; letter-spacing: -2px; margin: 18px 0; }
+    h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; letter-spacing: -.8px; }
+    h3 { line-height: 1.3; }
+    .hero p { max-width: 700px; font-size: 1.12rem; color: #e1eae3; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .button {
+      display: inline-block;
+      background: var(--white);
+      color: var(--green);
+      padding: 12px 19px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .button.outline { background: transparent; color: var(--white); border: 1px solid #a8c5b1; }
+    section { padding: 76px 0; }
+    .section-intro { max-width: 720px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 28px; }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 24px;
+    }
+    .card p { color: var(--muted); margin-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 4px 9px;
+      background: var(--green-light);
+      color: var(--green);
+      border-radius: 3px;
+      font-size: .76rem;
+      font-weight: 700;
+    }
+    .soft { background: #eeefe8; }
+    .faith { background: var(--charcoal); color: var(--white); }
+    .faith p { color: #e0e5e0; max-width: 780px; }
+    .faith .eyebrow { color: #b9d6c2; }
+    .company { background: var(--green); color: var(--white); }
+    .company p { color: #e1eae3; }
+    .company .card { background: #1c4939; border-color: #426554; }
+    .company .card p { color: #e1eae3; }
+    .company .tag { background: #dce9df; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .skills span { background: var(--green-light); color: var(--green); padding: 7px 12px; border-radius: 4px; font-size: .9rem; }
+    .contact-box { background: var(--white); border: 1px solid var(--line); border-radius: 9px; padding: 28px; }
+    footer { background: var(--charcoal); color: #e0e5e0; padding: 28px 0; font-size: .9rem; }
+    footer a { color: white; }
+    @media (max-width: 760px) {
+      nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      .nav-links { gap: 12px; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 70px 0; }
+      section { padding: 55px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="brand" href="#home">JOSEPH JOEL GUDA</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#faith">Faith & Missions</a>
+        <a href="#forge">Forge Pivot</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="eyebrow">Research · Data · Missions · Community</div>
+        <h1>Turning information into understanding and impact.</h1>
+        <p>I am Joseph Joel Guda, a researcher, data analyst, missionary and humanitarian. I use research, reliable information and practical problem-solving to strengthen communities, support better decisions and serve God's purposes.</p>
+        <div class="buttons">
+          <a class="button" href="#work">Explore my work</a>
+          <a class="button outline" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="eyebrow" style="color:#28634a">About me</div>
+        <h2>Evidence, service and purposeful innovation.</h2>
+        <p class="section-intro">My work brings together research, data analysis, programme monitoring, missions mobilisation and community engagement. I am interested in making trustworthy information more accessible and helping people and organisations use evidence to understand challenges and act wisely.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Research</span>
+            <h3>Ask better questions</h3>
+            <p>Research coordination, survey design, fieldwork and documentation that help make community realities and programme needs better understood.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Data</span>
+            <h3>Make information useful</h3>
+            <p>Data analysis, interpretation, visualisation and monitoring, evaluation, learning and research (MELR) to support evidence-informed decisions.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Service</span>
+            <h3>Connect insight with action</h3>
+            <p>Community engagement, humanitarian support and Christian mission research shaped by a commitment to integrity and service.</p>
+          </article>
+        </div>
+        <h3>Education and professional experience</h3>
+        <p>Graduate in Science Laboratory Technology, with short-course training in Cross-Cultural Missions. My professional work includes monitoring, evaluation, learning and research at the Nigeria Evangelical Missions Association (NEMA), leadership at Dwellers Christian Mission, and analytics development through Forge Pivot Analytics Co.</p>
+        <div class="skills">
+          <span>Research design</span><span>Data analysis</span><span>SPSS</span>
+          <span>Excel</span><span>R</span><span>KoboCollect</span>
+          <span>Data visualisation</span><span>MELR</span><span>Report writing</span>
+          <span>Community engagement</span><span>AI tools</span><span>Agricultural technology</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft" id="work">
+      <div class="container">
+        <div class="eyebrow" style="color:#28634a">Selected work</div>
+        <h2>Research and projects</h2>
+        <p class="section-intro">A selection of research, data and community-focused work. Detailed reports and supporting evidence can be added as they are approved for public sharing.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Missions research</span>
+            <h3>Missions data and people-group mapping</h3>
+            <p>Research and mapping focused on unreached and least-evangelised people groups, supporting better understanding of mission needs and opportunities.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Data systems</span>
+            <h3>Missions data bank and analysis</h3>
+            <p>Development of a data-bank and analysis resource to organise missions information and strengthen access to evidence.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Ethnographic research</span>
+            <h3>Kitimi community field research</h3>
+            <p>Field research documenting community history, identity, livelihoods, culture and development needs among Kitimi communities in Kaduna State.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Campus research</span>
+            <h3>Nigeria Missions Campus Research</h3>
+            <p>A national research initiative exploring campus ministry and Christian engagement among students in Nigerian tertiary institutions.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Ecology</span>
+            <h3>Species distribution research</h3>
+            <p>Scientific research examining bird abundance and distribution across altitude in Shere Hills and butterfly distribution across altitude in a wildlife park.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Applied science</span>
+            <h3>Plant science and biofortification</h3>
+            <p>Research interests and projects involving Amaranthus hybridus biofortification, plant-based biopesticides and plant-based antitermite preparations.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Community research</span>
+            <h3>Tulai people-group survey</h3>
+            <p>Ethnographic field research focused on community identity and lived experience.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Urban missions</span>
+            <h3>Urban missions research</h3>
+            <p>Research to improve understanding of urban mission contexts and inform planning, mobilisation and engagement.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Learning systems</span>
+            <h3>MELR frameworks and dashboards</h3>
+            <p>Interest and work in programme indicators, monitoring frameworks, reporting systems and data-informed learning.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faith" id="faith">
+      <div class="container">
+        <div class="eyebrow">Faith, calling and service</div>
+        <h2>My faith shapes the purpose behind my work.</h2>
+        <p>I am a Christian committed to the mission of God and to serving people with integrity, humility and excellence. My interest in missions includes understanding communities, supporting mission mobilisation and helping make reliable information available for thoughtful, responsible engagement.</p>
+        <p>I believe knowledge should not end with information alone. It should help us understand life more deeply and respond with wisdom, compassion and goodness before God our Maker.</p>
+        <p><strong>My commitment:</strong> to keep learning, serve faithfully and use the abilities entrusted to me for the good of people and the purposes of God.</p>
+      </div>
+    </section>
+
+    <section class="company" id="forge">
+      <div class="container">
+        <div class="eyebrow">A venture in development</div>
+        <h2>Forge Pivot Analytics Co.</h2>
+        <p class="section-intro">A research, data analytics and digital innovation company being developed to help organisations turn information into insight and practical solutions.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Data analytics</h3>
+            <p>Analysis, interpretation and visualisation to help organisations understand their data and make better-informed decisions.</p>
+          </article>
+          <article class="card">
+            <h3>Research and MELR</h3>
+            <p>Research and survey services, monitoring frameworks, programme learning and evidence-focused reporting.</p>
+          </article>
+          <article class="card">
+            <h3>Training and innovation</h3>
+            <p>Professional training, AI tools and prompt engineering, with a growing interest in agricultural technology and data-driven innovation.</p>
+          </article>
+        </div>
+        <div class="buttons">
+          <a class="button" href="#contact">Discuss a project</a>
+        </div>
+        <p><small>Forge Pivot Analytics Co. is at an early stage of brand and service development. This website describes its intended focus, not a claim of completed services or results.</small></p>
+      </div>
+    </section>
+
+    <section id="learning">
+      <div class="container">
+        <div class="eyebrow" style="color:#28634a">Learning and growth</div>
+        <h2>Building skills for the future</h2>
+        <p class="section-intro">I am continuing to develop my capabilities in data science, SQL, software and app development, artificial intelligence, and technology applications for research, missions and agriculture. I welcome meaningful opportunities to collaborate, learn and contribute.</p>
+      </div>
+    </section>
+
+    <section class="soft" id="contact">
+      <div class="container">
+        <div class="eyebrow" style="color:#28634a">Contact</div>
+        <h2>Let's connect around meaningful work.</h2>
+        <p class="section-intro">For research collaboration, data analytics, training, community development, missions research or professional opportunities, you can reach me by email.</p>
+        <div class="contact-box">
+          <h3>Joseph Joel Guda</h3>
+          <p>Research, Data & Missions Practitioner · Nigeria</p>
+          <p><strong>Email:</strong> <a href="mailto:josephjoelguda@gmail.com">josephjoelguda@gmail.com</a></p>
+          <a class="button" style="background:#123b2d;color:white" href="mailto:josephjoelguda@gmail.com?subject=Website%20enquiry">Send me an email</a>
+        </div>
+        <p><small>Research reports, publications, social links and additional project evidence will be added as they become available and are approved for public sharing.</small></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year">2026</span> Joseph Joel Guda. Built around research, service and purposeful innovation.</p>
+      <p><a href="#home">Back to top ↑</a></p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
